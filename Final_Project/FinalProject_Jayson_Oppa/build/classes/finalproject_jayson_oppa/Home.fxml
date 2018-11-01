@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="935.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject_jayson_oppa.HomeController">
+ 
+   <children>
+      <ImageView fitHeight="609.0" fitWidth="937.0" layoutY="-7.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/checkoutground.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="128.0" layoutY="2.0" prefHeight="600.0" prefWidth="690.0">
+         <top>
+            <AnchorPane onMouseMoved="#totalString" prefHeight="556.0" prefWidth="690.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fx:id="B" layoutX="597.0" layoutY="492.0" onMouseClicked="#show2B" strokeType="OUTSIDE" strokeWidth="0.0" text="BBQ" underline="true">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="C" layoutX="582.0" layoutY="492.0" onMouseClicked="#show3C" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken" underline="true">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="D" layoutX="592.0" layoutY="492.0" onMouseClicked="#show4S" strokeType="OUTSIDE" strokeWidth="0.0" text="Sushi" underline="true">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="244.0" fitWidth="319.0" layoutY="1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bbq" fitHeight="310.0" fitWidth="450.0" layoutX="24.0" layoutY="206.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/bbq.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="chicken" fitHeight="310.0" fitWidth="450.0" layoutX="24.0" layoutY="206.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/chicken.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="sushi" fitHeight="310.0" fitWidth="450.0" layoutX="24.0" layoutY="206.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/sushi.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="322.0" layoutY="130.0" prefHeight="27.0" prefWidth="369.0" style="-fx-background-color: ff3333;" textFill="#ee0b0b" />
+                  <Button fx:id="checkoutButton" layoutX="554.0" layoutY="96.0" mnemonicParsing="false" onAction="#checkout" opacity="0.77" style="-fx-background-color: white;" text="Check Out">
+                     <font>
+                        <Font name="Showcard Gothic" size="18.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#fe00ff" />
+                              <Stop color="#0fd005" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Text fx:id="bbq_Text" fill="#2c2b2b" layoutX="353.0" layoutY="150.0" onMouseClicked="#bbq" strokeType="OUTSIDE" strokeWidth="0.0" text="BBQ">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="chicken_Text" fill="#2c2b2b" layoutX="431.0" layoutY="149.0" onMouseClicked="#chicken" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="sushi_Text" fill="#2c2b2b" layoutX="531.0" layoutY="149.0" onMouseClicked="#sushi" strokeType="OUTSIDE" strokeWidth="0.0" text="Sushi">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="home_Text" fill="#2c2b2b" layoutX="601.0" layoutY="149.0" onMouseClicked="#aboutus" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="home" fitHeight="310.0" fitWidth="450.0" layoutX="24.0" layoutY="206.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/home.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="600.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/facebook.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="639.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/ins.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="38.0" layoutX="557.0" layoutY="20.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/Wechat.png" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutY="531.0" prefHeight="58.0" prefWidth="691.0" style="-fx-background-color: #ff3333;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="1.0" text="Open from 11a.m to 10.30p.m" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Book Antiqua" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="26.0" text="647-906-8888" textFill="#fcf9f9">
+                           <font>
+                              <Font name="Book Antiqua" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="456.0" layoutY="-5.0" prefHeight="36.0" prefWidth="244.0" text="28 Chopin Cres, Bramptom" textFill="#fcf9f9">
+                           <font>
+                              <Font name="Book Antiqua" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="612.0" layoutY="26.0" text="L8Y 2S1" textFill="#fcf9f9">
+                           <font>
+                              <Font name="Book Antiqua" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <AnchorPane layoutX="482.0" layoutY="206.0" prefHeight="256.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="8.0" prefHeight="27.0" prefWidth="193.0" text="Located in the seemingly quiet">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="35.0" prefHeight="27.0" prefWidth="193.0" text="residential neighborhood of ">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="62.0" prefHeight="27.0" prefWidth="193.0" text="the Bramptom. Jay-Son Oppa">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="89.0" prefHeight="27.0" prefWidth="193.0" text="is a hidden gem, attracting ">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="115.0" prefHeight="27.0" prefWidth="193.0" text="locals from all of San Franciso">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="169.0" prefHeight="27.0" prefWidth="193.0" text="charm of this small but homey">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="142.0" prefHeight="27.0" prefWidth="193.0" text="to experience the energy and">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="196.0" prefHeight="27.0" prefWidth="193.0" text="late night resturant">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label fx:id="Label_total" layoutX="476.0" layoutY="26.0" />
+                  <Label fx:id="total" layoutX="474.0" layoutY="18.0" prefHeight="43.0" prefWidth="66.0" textFill="#ff0a01">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font></Label>
+                  <Label layoutX="557.0" layoutY="59.0" onMouseClicked="#adminPageView" prefHeight="22.0" prefWidth="117.0" text="Admin Login">
+                     <font>
+                        <Font name="Showcard Gothic" size="18.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#fe00ff" />
+                              <Stop color="#0fd005" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label fx:id="totalLabel" layoutX="479.0" layoutY="104.0" text="\$0.00" textFill="RED" />
+                  <Label layoutX="431.0" layoutY="103.0" text="Total:" textFill="RED">
+                     <font>
+                        <Font name="Calibri Bold" size="18.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

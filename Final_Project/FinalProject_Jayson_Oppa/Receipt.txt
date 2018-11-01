@@ -1,0 +1,29 @@
+                      Jay-Son Oppa               
+                    38 Chopin Cres
+                      Brampton ON
+                          L6Y 2S1
+   *****************************************
+BBQ  			TotalPrice: $93.92
+ > Woodfire Steak			x3
+ > Filet Lobster			x2
+ > Rosted Chiken			x2
+ > Mashroom Burger		x1
+
+Chicken			TotalPrice: $55.94
+> PullChicken				x2
+> ChickenFriedSteak		x2
+> ChickenSkewers			x2
+
+Sushi			TotalPrice: $41.93
+ > Las Vegas Roll (5pc)		x3
+ > Red Dragon Roll (8pc)		x2
+ > California Roll			x2
+
+
+
+   *****************************************
+Subtotal					$191.79
+Taxes(13%)				$24.93
+Total					$216.72
+
+        THANKS FOR YOUR ORDER!

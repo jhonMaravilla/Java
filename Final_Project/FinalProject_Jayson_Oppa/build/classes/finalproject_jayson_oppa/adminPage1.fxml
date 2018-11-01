@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="658.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject_jayson_oppa.AdminPageController">
+   <children>
+      <ImageView fitHeight="661.0" fitWidth="939.0" nodeOrientation="INHERIT" opacity="0.82" pickOnBounds="true">
+         <image>
+            <Image url="@../images/mainBackground.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="136.0" layoutY="9.0" prefHeight="636.0" prefWidth="684.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="47.0" layoutY="14.0" prefHeight="60.0" prefWidth="283.0" text="Sales Report">
+               <font>
+                  <Font name="Cambria Bold Italic" size="48.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" fill="#13ccf5" layoutX="147.0" layoutY="85.0" startX="-100.0" stroke="#1ffcf8" strokeLineCap="BUTT" strokeMiterLimit="0.0" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="342.0" layoutY="85.0" startX="-100.0" stroke="#1ffcf8" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="537.0" layoutY="85.0" startX="-100.0" stroke="#1ffcf8" strokeWidth="3.0" />
+            <Label fx:id="logout" layoutX="572.0" layoutY="55.0" onMouseClicked="#logout" prefHeight="27.0" prefWidth="66.0" text="Logout" underline="true">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableView" layoutX="29.0" layoutY="111.0" prefHeight="289.0" prefWidth="623.0" style="-fx-alignment: center;">
+              <columns>
+                <TableColumn fx:id="orderNumberColumn" editable="false" prefWidth="161.0" resizable="false" style="-fx-alignment: center;" text="Order Number" />
+                <TableColumn fx:id="dateColumn" editable="false" prefWidth="136.0" resizable="false" style="-fx-alignment: center;" text="Date" />
+                  <TableColumn fx:id="timeColumn" editable="false" prefWidth="150.0" resizable="false" style="-fx-alignment: center;" text="Time" />
+                  <TableColumn fx:id="subTotalColumn" editable="false" prefWidth="175.0" resizable="false" style="-fx-alignment: center;" text="Subtotal" />
+              </columns>
+            </TableView>
+            <TextField fx:id="subTotalTextField" alignment="CENTER" editable="false" layoutX="143.0" layoutY="425.0" />
+            <TextField fx:id="taxTextField" alignment="CENTER" editable="false" layoutX="143.0" layoutY="471.0" />
+            <TextField fx:id="totalTextField" alignment="CENTER" editable="false" layoutX="143.0" layoutY="516.0" />
+            <Label layoutX="61.0" layoutY="430.0" prefHeight="22.0" prefWidth="81.0" text="Subtotal:">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="476.0" prefHeight="21.0" prefWidth="52.0" text="Taxes:">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="521.0" prefHeight="21.0" prefWidth="52.0" text="Total:">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="datePicker" layoutX="412.0" layoutY="426.0" onAction="#getDate" />
+            <Label layoutX="475.0" layoutY="460.0" text="Search Date:">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateValue" disable="true" layoutX="368.0" layoutY="521.0" text="DateValue" visible="false" />
+            <Button layoutX="260.0" layoutY="575.0" mnemonicParsing="false" onAction="#refreshTable" text="Refresh" />
+            <Button layoutX="352.0" layoutY="575.0" mnemonicParsing="false" onAction="#printReport" text="Write to File" />
+            <TextField fx:id="orderNumberField" layoutX="412.0" layoutY="487.0" onAction="#getOrderNumber" prefHeight="31.0" prefWidth="218.0" />
+            <Label layoutX="436.0" layoutY="521.0" prefHeight="22.0" prefWidth="170.0" text="Search Order Number">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

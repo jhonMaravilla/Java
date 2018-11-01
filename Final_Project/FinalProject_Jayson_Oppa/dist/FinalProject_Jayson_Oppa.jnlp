@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FinalProject_Jayson_Oppa.jnlp">
+  <information>
+    <title>FinalProject_Jayson_Oppa</title>
+    <vendor>jason</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FinalProject_Jayson_Oppa.jar" size="3192680" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FinalProject_Jayson_Oppa" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalproject_jayson_oppa.FinalProject_Jayson_Oppa"  name="FinalProject_Jayson_Oppa" />
+  <update check="always"/>
+</jnlp>

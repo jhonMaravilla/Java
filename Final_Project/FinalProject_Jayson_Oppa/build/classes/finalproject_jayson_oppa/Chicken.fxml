@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject_jayson_oppa.ChickenController">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="900.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TabPane layoutX="-1.0" prefHeight="470.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE">
+                     <tabs>
+                        <Tab text="Menu   ">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #e6e6ff;">
+                                 <children>
+                                    <Label layoutX="30.0" layoutY="60.0" text="PullChicken">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="120.0" text="ChickenFriedSteak">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="180.0" text="ChickenSkewers">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="240.0" text="ChickenBisket">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="33.0" layoutY="300.0" text="BeffShortRibs">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="33.0" layoutY="360.0" text="PotatoFries">
+                                       <font>
+                                          <Font name="System Bold Italic" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="87.0" text="8 pc/order">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2a8" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="147.0" text="8 pc/ordrer">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="207.0" text="10 pc/order">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="267.0" text="6 pc/order">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="327.0" text="8 pc /order">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Label layoutX="30.0" layoutY="387.0" text="10 px/order">
+                                       <font>
+                                          <Font name="Bell MT" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop color="#e510c5e2" />
+                                                <Stop color="#0f16e2" offset="1.0" />
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Label>
+                                    <Button layoutX="523.0" layoutY="56.0" mnemonicParsing="false" onAction="#plus1" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="356.0" mnemonicParsing="false" onAction="#Min6" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="523.0" layoutY="356.0" mnemonicParsing="false" onAction="#plus6" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="296.0" mnemonicParsing="false" onAction="#Min5" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="523.0" layoutY="296.0" mnemonicParsing="false" onAction="#plus5" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="236.0" mnemonicParsing="false" onAction="#Min4" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="523.0" layoutY="236.0" mnemonicParsing="false" onAction="#plus4" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="176.0" mnemonicParsing="false" onAction="#Min3" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="523.0" layoutY="176.0" mnemonicParsing="false" onAction="#plus3" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="116.0" mnemonicParsing="false" onAction="#Min2" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="523.0" layoutY="116.0" mnemonicParsing="false" onAction="#plus2" prefHeight="30.0" prefWidth="32.0" text="+">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <Button layoutX="630.0" layoutY="56.0" mnemonicParsing="false" onAction="#Min1" prefHeight="30.0" prefWidth="32.0" text="-">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="0.1" right="0.1" />
+                                       </padding>
+                                    </Button>
+                                    <TextField fx:id="PullChickenNumber" editable="false" layoutX="555.0" layoutY="54.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="ChickenFriedSteakNumber" editable="false" layoutX="555.0" layoutY="115.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="PotatoFriesNumber" editable="false" layoutX="555.0" layoutY="354.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="BeffShortRibsNumber" editable="false" layoutX="555.0" layoutY="295.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="ChickenBisketNumber" editable="false" layoutX="555.0" layoutY="234.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="ChickenSkewersNumber" editable="false" layoutX="555.0" layoutY="175.0" prefHeight="39.0" prefWidth="75.0" text="    0">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </TextField>
+                                    <Text layoutX="398.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$9.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="398.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$8.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="398.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$8.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="398.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="398.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$9.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="398.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5.99">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Label fx:id="total" layoutX="753.0" layoutY="274.0" text="\$ 0.0" textFill="#ff4303">
+                                       <font>
+                                          <Font name="System Bold" size="36.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="828.0" layoutY="355.0" onMouseClicked="#AddButton" text="Add" underline="true">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="718.0" layoutY="355.0" onMouseClicked="#show1H" text="Home" underline="true">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </center>
+         <left>
+            <Accordion BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Accordion BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <StackPane prefHeight="130.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="130.0" fitWidth="901.0" opacity="0.9" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/chickentop.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

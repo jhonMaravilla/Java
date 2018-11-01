@@ -1,0 +1,13 @@
+                      Jay-Son Oppa               
+                    38 Chopin Cres
+                      Brampton ON
+                        L6Y 2S1
+__________________________________________________________
+
+Order Number: 100001
+Date: 20/04/2018
+Time: 18:26
+Subtotal: $12.98
+Tax: $1.6874
+Total: $14.6674
+
